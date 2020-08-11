@@ -20,7 +20,7 @@
 
 </div>
    
- <h2>Commit test</h2>  
+ <h2>Commit test 4</h2>  
 </body>
 <?php  require 'blocks/footer.php'?>
 </html>
