@@ -2,11 +2,11 @@
 <html lang="ru">
 <head>
   <?php
-    $website_title = 'OSakhno/Home';
+    $website_title = 'OSakhno/Articles';
     require 'blocks/head.php';
   ?>
 </head>
-<body>
+<body class="body_color">
 
   <?php require 'blocks/header.php'; ?>
 
@@ -21,7 +21,7 @@
         while ($row=$query->fetch(PDO::FETCH_OBJ)){
           echo "<h2>$row->title</h2><br>
                 <p>$row->intro</p>
-                <p><b>Author: </b> <mark> $row->author</mark></p>
+                <p><b>Author: </b> <span > $row->author</span></p>
                 <a href='/news.php?id=$row->id' title='$row->title'> <button class='btn btn-warning mb-50'>Read more</button>
                 </a>";
         }
@@ -38,7 +38,25 @@
 
 
 
-
+<script>
+$('#mess_send').click(function () {
+  var name = $('#username').val();
+  var email = $('#email').val();
+  var mess = $('#mess').val();
+  
+$('#exit_btn').click(function () {
+  $.ajax({
+    url: 'ajax/exit.php',
+    type: 'POST',
+    cache: false,
+    data: {},
+    dataType: 'html',
+    success: function(data) {
+      document.location.reload(true);
+    }
+  });
+});
+</script>
 
 
 </body>

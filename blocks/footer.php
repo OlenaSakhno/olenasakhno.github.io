@@ -5,6 +5,6 @@
 
   <hr>
 <div class="container">
-  <a class="foot-link " href="https://github.com/OlenaSakhno">Me on GitHub</a> <span class="text-muted">            &copy; Olen Sakhno</span>
+  <a class="foot-link " href="https://github.com/OlenaSakhno">Me on GitHub</a> <span>         &copy; Olena Sakhno</span>
   </div>
 </footer>

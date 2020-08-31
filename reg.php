@@ -2,18 +2,18 @@
 <html lang="ru">
 <head>
   <?php
-    $website_title = 'Регистрация';
+    $website_title = 'Registration';
     require 'blocks/head.php';
   ?>
 </head>
-<body>
+<body class="body_color">
   <?php require 'blocks/header.php'; ?>
 
   <main class="container mt-5">
     <div class="row">
       <div class="col-md-8 mb-3 mt-5  ">
        <h2> Registration form </h2>
-     
+
           <form action="" method="post">
               <label for="username">User name</label>
               <input type="text" name="username" id="username" class="form-control">
@@ -29,7 +29,7 @@
 
               <div class="alert alert-danger mt-2" id="errorBlock"></div>
 
-              <button type="button" id="reg_user" class="btn btn-success mt-3">Submit</button>
+              <button type="button" id="reg_user" class="btn btn-info mt-3">Submit</button>
             </form>
       </div>
       <?php require 'blocks/aside.php'; ?>

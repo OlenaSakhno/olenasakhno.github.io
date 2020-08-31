@@ -4,9 +4,9 @@
 
   $error = '';
   if(strlen($login) <= 3)
-    $error = 'Введите логин';
+    $error = 'Enter Login';
   else if(strlen($pass) <= 3)
-    $error = 'Введите пароль';
+    $error = 'Enter Password';
 
   if($error != '') {
     echo $error;
@@ -24,9 +24,9 @@
 
   $user = $query->fetch(PDO::FETCH_OBJ);
   if(!isset($user->id) || $user->id == 0)
-    echo 'Такого пользователя не существует';
+    echo 'This user does not exist';
   else {
     setcookie('login', $login, time() + 3600 * 24 * 30, "/");
-    echo 'Готово';
+    echo 'Done';
   }
 ?>

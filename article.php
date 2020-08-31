@@ -13,7 +13,7 @@ if(!isset($_COOKIE['login'])){
     require 'blocks/head.php';
   ?>
 </head>
-<body>
+<body class="body_color">
   <?php require 'blocks/header.php'; ?>
 
   <main class="container mt-5">
@@ -67,6 +67,20 @@ if(!isset($_COOKIE['login'])){
           }
         });
     });
+
+    $('#exit_btn').click(function () {
+      $.ajax({
+        url: 'ajax/exit.php',
+        type: 'POST',
+        cache: false,
+        data: {},
+        dataType: 'html',
+        success: function(data) {
+          document.location.reload(true);
+        }
+      });
+    });
+
   </script>
 </body>
 </html>

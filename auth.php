@@ -2,11 +2,11 @@
 <html lang="ru">
 <head>
   <?php
-    $website_title = 'Авторизация на сайте';
+    $website_title = 'Authorisation';
     require 'blocks/head.php';
   ?>
 </head>
-<body>
+<body class="body_color">
   <?php require 'blocks/header.php'; ?>
 
   <main class="container mt-5">
@@ -15,7 +15,7 @@
         <?php
           if(!isset($_COOKIE['login'])):
         ?>
-        <h4 class="mt-5">Authorisation form</h4>
+        <h2 class="mt-5">Authorisation form</h2>
         <form action="" method="post">
           <label for="login">Login</label>
           <input type="text" name="login" id="login" class="form-control">
@@ -71,8 +71,8 @@
         data: {'login' : login, 'pass' : pass},
         dataType: 'html',
         success: function(data) {
-          if(data == 'Готово') {
-            $('#auth_user').text('Готово');
+          if(data == 'Done') {
+            $('#auth_user').text('Done');
             $('#errorBlock').hide();
             document.location.reload(true);
           } else {
