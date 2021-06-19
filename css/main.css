@@ -1,165 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Metal+Mania&display=swap');
+body{
+    background-color: #ceddef;
+}
 
-.footer {
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #07689f;
+hr, h2{
+    color: #070d59;
+}
+
+.bg-dark {
+    background-color: #070d59!important;
+}
+
+.nav-item, .nav-link{
+    color: #ffcccc!important ;
+}
+.navbar-toggler-icon {
+    color: #ffcccc!important ;
+}
+
+.btn-outline-pink {
+    color: #ffcccc;
+    border: #ffcccc 1px solid; 
+}
+
+
+
+.btn-outline-pink:hover, .btn-outline-blue:hover {
+    color:#070d59;
+    background-color:  #ffcccc;
+    border-color:  #ffcccc;
+}
+
+.btn-outline-pink:not(:disabled):not(.disabled):active, .show>.btn-outline-pink.dropdown-toggle {
+    color:#070d59;
+    background-color:  #ffcccc;
+    border-color:  #ffcccc;
+}
+
+.btn-outline-blue{
+    color:#ffcccc;
+    background-color:  #070d59;
+    border-color:  #070d59;
+}
+
+
+.nav-login:hover{
+    color:#070d59;
 }
 .foot-link{
-  color: #a2d5f2;
-}
-.foot-link:hover{
-  color: #40a8c4;
-}
-div.container span{
-  color: #fff;
-}
-.header-link,a.btn, a.btn-outline-info{
-  color: darkblue !important;
-  font-size: 24px;
-}
-h1{
-  color: darkblue;
-  text-align: center;
-  text-shadow: 1px 1px 1px #fff;
-  font-size: 3.5rem !important;
-
-}
-h5{
-  background: #07689f;
-  opacity: 0.7;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-
-}
-.body_color{
-  background-color: #a2d5f2;
-}
-#errorBlock {
-display: none;
+    color:#070d59;
 }
 
-.bg-color, #___gcse_0, .img-thumbnail, iframe, .carousel{
-  background-color: #a2d5f2;
-  box-shadow: 3px 3px 3px #000;
-}
 h2{
-  color:#07689f;
-  text-shadow: 1px 1px #000;
-}
-h4{
-  color:#07689f;}
-
-#Wel {
-  font-size: 40px;
-  font-weight: bold;
-  text-shadow: 4px 4px 4px #fff;
-  color: darkblue;
-
+    color:rgb(247, 0, 255);
 }
 
-/*
-.block{
-border:1px solid rgb(44, 117, 54);
-height: 40px;
-width: 400px;
-}
-
-  .container-1{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  }
-
-.box-1{
-flex:2;
-order: 2;
-background-color: rosybrown;
-}
-.box-2{
-flex:1;
-order: 3;
-background-color: rgb(255, 255, 162);
-
-}
-.box-3{
-flex:1;
-background-color: aquamarine;
-align-items: flex-start;
-}*/
-.container-1 div{
-border: 1px solid grey;
-padding: 10px;
-}
-
-Caveat{
-  font-family: 'Caveat', cursive;
-}
-Metal_Mania{
-  font-family: 'Metal Mania', cursive;
-}
-Odibee_Sans{
-  font-family: 'Odibee Sans', cursive;
-}
-
-#Fonts{
-  border: yellowgreen solid 1px;
-  margin: auto;
-  width: 800px;
-}
-
-.carousel-inner img{
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-caption{
-  position: absolute;
-  bottom: 0;
-  left:0;
-
-  font-size: 10px;
-  font-weight: 100px;
-/*  text-shadow: rgb(75, 6, 92) 2px 3px;*/
-}
-.fa-pepper-hot{
-  font-size: 1.5em;
-}
-#fixed{
-  height:auto;
-  border-top: 4px solid #f0f0f0;
-  border-bottom: 4px solid #f0f0f0;
-  background: url("../img/bg-img.jpg") no-repeat center center fixed;
-  background-blend-mode: multiply; /*слои*/
-  background-color: #f0f0f0;/*затенение*/
-
-
-
-  background-size: cover;/*растянуть на экран*/
-  -webkit-background-size: cover;/*safary*/
-  -o-background-size: cover;/*opera*/
-  -moz-background-size: cover; /*mozila*/
-}
-#gifsBnt{
-  margin-bottom: 20px;
-}
-#gifs img{
-  max-width: 100%;
-  max-height: 300px;
-  margin-bottom: 20px;
-}
-.jquery{
-  cursor: pointer;
-  color: #07689f;
-}
-ul   img {
- height: 200px;
- width: auto;
-
-}
-h4:hover{
-  color: darkblue;
-}
