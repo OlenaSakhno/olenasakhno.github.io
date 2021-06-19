@@ -17,7 +17,8 @@
 
 
       <h1 >Welcome</h1>
-      <p id="Wel">This is my first web site which was created for my learning. I used my knowledges of HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Ajax and JQuery.</p>
+      <p id="Wel">This is my first web site which was created for my learning. I used my knowledges of HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Ajax and 
+      <a href="/jqery.php">JQuery</a>.</p>
 
 
       <hr><hr>

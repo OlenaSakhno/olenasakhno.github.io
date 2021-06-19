@@ -3,8 +3,8 @@
   $password = '';
   $db = 'testingbd';
   $host = 'localhost';
-  //$user = 'Olena';
-  //$password = 'MSS@khn0_H_38!';
+  //$user = 'olenasco';
+  //$password = 'S@khn0_H_39!';
   //$db = 'testingbd';
   //$host = 'localhost';
   $dsn = 'mysql:host='.$host.';dbname='.$db;

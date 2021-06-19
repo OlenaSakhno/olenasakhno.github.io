@@ -8,13 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link header-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="AllArticles.php">Articles <span class="sr-only">(current)</span></a>
+          <a class="nav-link header-link" href="AllArticles.php">Articles <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="contacts.php">Contacts <span class="sr-only">(current)</span></a>
+          <a class="nav-link header-link" href="contacts.php">Contacts <span class="sr-only">(current)</span></a>
         </li>
 
     <!--   <li class="nav-item active">
