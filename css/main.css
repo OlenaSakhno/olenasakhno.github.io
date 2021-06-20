@@ -5,6 +5,7 @@
   height: 60px;
   line-height: 60px;
   background-color: #07689f;
+  box-shadow: 3px -3px 3px #000;
 }
 .foot-link{
   color: #a2d5f2;
@@ -37,14 +38,16 @@ h5{
 #errorBlock {
 display: none;
 }
-
-.bg-color, #___gcse_0, .img-thumbnail{
+#map{
+    box-shadow: 3px 3px 3px #000;
+}
+.bg-color, #___gcse_0, .img-thumbnail, .carousel{
   background-color: #07689f;
   box-shadow: 3px 3px 3px #000;
 }
 h2{
   color:#07689f;
-  shadow: 1px 1px #000;
+
 }
 #Wel {
   font-size: 30px;
@@ -142,4 +145,8 @@ Odibee_Sans{
   max-width: 100%;
   max-height: 300px;
   margin-bottom: 20px;
+}
+a.btn-outline-info, a.nav-link, .side-color {
+    color: #fff;
+    font-size: 20px;
 }
